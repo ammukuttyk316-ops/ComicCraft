@@ -1,0 +1,47 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicCraft - AI Comic Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><header>
+    <h1>OP ComicCraft</h1>
+    <p>AI Comic Story Creator</p>
+</header>
+
+<main>
+    <section class="creator">
+        <h2>Create Your Own Comic</h2>
+
+        <label for="story">Enter Your Story Idea</label>
+        <textarea id="story" placeholder="Enter your story idea here..."></textarea>
+
+        <label for="genre">Choose Story Genre</label>
+        <select id="genre">
+            <option value="Adventure">Adventure</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Mystery">Mystery</option>
+            <option value="Science Fiction">Science Fiction</option>
+        </select>
+
+        <button onclick="generateComic()">Generate Comic</button>
+    </section>
+
+    <section class="result">
+        <h2>Your Comic Story</h2>
+        <div id="output">
+            Your generated comic story will appear here.
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 ComicCraft | AI Comic Story Creator</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

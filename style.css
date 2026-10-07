@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+font-family: Arial, sans-serif;
+background: #f4eaff;
+color: #333;
+}
+
+header {
+background: #6c3bbf;
+color: white;
+text-align: center;
+padding: 25px;
+}
+
+header h1 {
+font-size: 35px;
+margin-bottom: 8px;
+}
+
+main {
+max-width: 800px;
+margin: 30px auto;
+padding: 15px;
+}
+
+.creator, .result {
+background: white;
+padding: 25px;
+margin-bottom: 25px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+color: #6c3bbf;
+margin-bottom: 20px;
+}
+
+label {
+display: block;
+margin: 15px 0 8px;
+font-weight: bold;
+}
+
+textarea, select {
+width: 100%;
+padding: 12px;
+border: 1px solid #aaa;
+border-radius: 6px;
+font-size: 16px;
+}
+
+textarea {
+height: 120px;
+resize: vertical;
+}
+
+button {
+width: 100%;
+margin-top: 20px;
+padding: 14px;
+background: #6c3bbf;
+color: white;
+border: none;
+border-radius: 6px;
+font-size: 17px;
+cursor: pointer;
+}
+
+button:hover {
+background: #512b96;
+}
+
+#output {
+background: #f9f4ff;
+padding: 20px;
+border-radius: 8px;
+line-height: 1.8;
+white-space: pre-wrap;
+}
+
+footer {
+text-align: center;
+padding: 20px;
+background: #6c3bbf;
+color: white;
+}
+
+@media (max-width: 600px) {
+main {
+margin: 15px auto;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+}
